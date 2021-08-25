@@ -1,2 +1,4 @@
-print('Hello World')
-print('2 + 3 = ', 2+3)
+import main
+
+if __name__ == '__main__':
+    print(main.random_code('ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'))
